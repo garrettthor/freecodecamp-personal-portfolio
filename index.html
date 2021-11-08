@@ -4,38 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;1,700&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
     <title>Personal Portfolio</title>
 </head>
 <body>
     <nav id="nav-bar">
-        <a href="#projects">Projects</a>
-        <a id="profile-link" href="#">My GitHub</a>
+        <ul id="nav-links-list">
+            <li><a href="#snap-to-projects">Projects</a></li>
+            <li><a id="profile-link" href="#">My GitHub</a></li>
+        </ul>
     </nav>
     
     <main>
         <section id="welcome-section">
-            <h1>Behold: my stuff.</h1>
+            <div class="grouped-text">
+                <h1>Garrett Thor</h1>
+                <span>Let's build something together</span>
+            </div>
+            
         </section>
         
-        <section id="project-container">
-            
+        
+        <div id="snap-to-projects"></div>
+        
+        <div id="projects-wrapper">
+            <h2>Examples of work</h2>
             <section id="projects">
-                <div class="project-tile">I'm a project! Check it out <a href="#">HERE</a></div>
-            </section>
             
-            <section id="projects">
-                <div class="project-tile">I'm a project! Check it out <a href="#">HERE</a></div>
-            </section>
+                <section class="project">
+                    <div id="project-1" class="project-tile"></div>
+                    <footer class="project-footer"><a href="https://naughty-newton-62b2df.netlify.app/">Dream Burrito Survey Form</a></footer>
+                </section>
             
-            <section id="projects">
-                <div class="project-tile">I'm a project! Check it out <a href="#">HERE</a></div>
-            </section>
+                <section class="project">
+                    <div class="project-tile">I'm a project! Check it out <a href="#">HERE</a></div>
+                </section>
             
-            <section id="projects">
-                <div class="project-tile">I'm a project! Check it out <a href="#">HERE</a></div>
+                <section class="project">
+                    <div class="project-tile">I'm a project! Check it out <a href="#">HERE</a></div>
+                </section>
+            
+                <section class="project">
+                    <div class="project-tile">I'm a project! Check it out <a href="#">HERE</a></div>
+                </section>
             </section>
+        </div>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            
         </section>
+        
         
     </main>
     
